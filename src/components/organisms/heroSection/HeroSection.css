@@ -1,0 +1,24 @@
+.hero_section {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_img {
+  width: 50%;
+  max-width: 450px;
+  object-fit: cover;
+}
+.hero_section-pitch {
+  max-width: 450px;
+}
+.img_right {
+  flex-direction: row-reverse;
+}
+.img_right .hero_img {
+  margin-left: 4rem;
+}
+.img_left .hero_img {
+  margin-right: 4rem;
+}

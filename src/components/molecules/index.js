@@ -1,0 +1,1 @@
+export { default as HeroPicth } from './heroPitch/HeroPitch';

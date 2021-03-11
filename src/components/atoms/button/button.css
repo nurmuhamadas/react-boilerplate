@@ -1,0 +1,40 @@
+@import '../../_settings/variable.css';
+
+.button {
+  font-family: var(--open-sans);
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  transition: .3 ease-in-out all;
+}
+.button-contained {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+.button-contained:hover {
+  background-color: var(--primary-color-variant);
+}
+.button-outlined {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: #fff;
+}
+.button-outlined:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+.button-small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.button-medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.button-large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

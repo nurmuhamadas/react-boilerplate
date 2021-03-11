@@ -1,0 +1,23 @@
+@import '../../_settings/variable.css';
+
+.pitch {
+  width: 100%;
+  font-family: var(--open-sans);
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.pitch_heading {
+  margin: 0;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+}
+.pitch_desc {
+  margin-bottom: 2rem;
+}
