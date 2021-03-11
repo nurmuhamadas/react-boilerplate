@@ -1,8 +1,9 @@
+import Home from './components/pages/home/Home';
+
 function App() {
   return (
     <div className="App" style={{textAlign: 'center'}}>
-      <h1>React Boilerplate</h1>
-      <p>Please select boilerplate by using branch menu on Github</p>
+      <Home />
     </div>
   );
 }
